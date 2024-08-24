@@ -3,7 +3,7 @@ package org.dsa.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class A35LongestPallindrone {
+public class A32LongestPallindrone {
 //    https://leetcode.com/problems/longest-palindrome/description/?envType=daily-question&envId=2024-06-04
     public int longestPalindrome(String s) {
         Map<Character, Integer> map = new HashMap<>();

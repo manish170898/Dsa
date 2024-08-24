@@ -3,7 +3,7 @@ package org.dsa.Arrays;
 import java.util.Collections;
 import java.util.PriorityQueue;
 
-public class A33LastStoneWeight {
+public class A30LastStoneWeight {
 //    https://leetcode.com/problems/last-stone-weight/description/
     public int lastStoneWeight(int[] stones) {
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());

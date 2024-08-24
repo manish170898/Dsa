@@ -1,9 +1,6 @@
 package org.dsa.Arrays;
 
-import java.util.Arrays;
-import java.util.Collections;
-
-public class A30TimeNeededToBuyTickets {
+public class A28TimeNeededToBuyTickets {
     public static void main(String[] args) {
 //        https://leetcode.com/problems/time-needed-to-buy-tickets/
     }

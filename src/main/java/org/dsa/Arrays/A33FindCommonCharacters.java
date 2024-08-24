@@ -3,7 +3,8 @@ package org.dsa.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
-public class A36FindCommonCharacters {
+public class A33FindCommonCharacters {
+//    https://leetcode.com/problems/find-common-characters/description/
     public List<String> commonChars(String[] words) {
         int[] first = count(words[0]);
 

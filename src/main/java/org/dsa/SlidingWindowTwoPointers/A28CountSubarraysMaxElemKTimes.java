@@ -1,4 +1,4 @@
-package org.dsa.Arrays;
+package org.dsa.SlidingWindowTwoPointers;
 
 public class A28CountSubarraysMaxElemKTimes {
     public static void main(String[] args) {

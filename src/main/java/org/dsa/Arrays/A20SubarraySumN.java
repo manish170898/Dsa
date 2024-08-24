@@ -19,45 +19,27 @@ import java.util.*;
 //        Explanation: Subarrays : arr[0…2], arr[2…4] have a sum exactly equal to 33.
 public class A20SubarraySumN {
     public static void main(String[] args) throws IOException {
-//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-//        StringTokenizer st = new StringTokenizer(br.readLine());
-//        int T = Integer.parseInt(st.nextToken());
-//        Integer arr[] = new Integer[T];
-//        st = new StringTokenizer(br.readLine());
-//        int S = Integer.parseInt(st.nextToken());
-//        st = new StringTokenizer(br.readLine());
-//        for(int i=0; i<T; i++) {
-//            arr[i] = Integer.parseInt(st.nextToken());
-//        }
-        int sum=0;
-//        Set<Integer> list = new HashSet<>();
-//        for(int i=0; i<T; i++){
-//            sum= sum+arr[i];
-//            if(sum-S>0){
-//                if(list.contains(sum-S)){
-//                    System.out.println("True");
-//                    break;
-//                }
-//            }
-//            else {
-//                list.add(sum);
-//            }
-//        }
-        int[] arr = {10, 2, -2, -20, 10};
-        int T=5;
-        int S =-10;
+
+    }
+    public int subarraySum(int[] nums, int k) {
         Map<Integer,Integer> map = new HashMap<>();
-        map.put(sum,0);
-        for(int i=0; i<T; i++){
-            sum= sum+arr[i];
-            if(sum-S >= 0){
-                if(map.containsKey(sum-S)){
-                    System.out.println(i+1);
-                    System.out.println(map.get(sum-S)+1);
-                    break;
-                }
+        int sum =0;
+        map.put(sum,1);
+        int ans = 0;
+        for(int i=0; i<nums.length; i++)
+        {
+            sum = sum + nums[i];
+            if(map.containsKey(sum-k)){
+                int count = map.get(sum-k);
+                ans += count;
             }
-            map.put(sum,i+1);
+            if(map.containsKey(sum)){
+                map.put(sum,map.get(sum) + 1);
+            }
+            else{
+                map.put(sum,1);
+            }
         }
+        return ans;
     }
 }

@@ -3,7 +3,7 @@ package org.dsa.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class A39SubarraySumsDivisibleByK {
+public class A36SubarraySumsDivisibleByK {
 //    https://leetcode.com/problems/subarray-sums-divisible-by-k/description/?envType=daily-question&envId=2024-06-10
     public int subarraysDivByK(int[] nums, int k) {
     Map<Integer, Integer> map =new HashMap<>();

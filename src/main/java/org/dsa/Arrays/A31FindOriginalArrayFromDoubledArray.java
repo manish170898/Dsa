@@ -3,7 +3,7 @@ package org.dsa.Arrays;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class A34FindOriginalArrayFromDoubledArray {
+public class A31FindOriginalArrayFromDoubledArray {
     public int[] findOriginalArray(int[] changed) {
         Arrays.sort(changed);
         int n = changed.length, original[]=new int[n/2],i=0;

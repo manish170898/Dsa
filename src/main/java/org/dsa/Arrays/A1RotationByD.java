@@ -13,9 +13,9 @@ import java.util.TreeSet;
 //        The elements are only shifted within the sets.
 //        We start with temp = arr[0] and keep moving arr[I+d] to arr[I] and finally store temp at the right place.
 public class A1RotationByD {
-
+//    https://www.geeksforgeeks.org/array-rotation/
     public static void main(String[] args){
-        int[] arr = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
+        int[] arr = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14};
         leftRotate(arr, 10,arr.length);
         printArray(arr, arr.length);
 

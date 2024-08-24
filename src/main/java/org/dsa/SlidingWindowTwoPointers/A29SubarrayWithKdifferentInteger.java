@@ -1,4 +1,4 @@
-package org.dsa.Arrays;
+package org.dsa.SlidingWindowTwoPointers;
 
 import java.util.HashMap;
 

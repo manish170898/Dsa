@@ -1,6 +1,6 @@
 package org.dsa.Arrays;
 
-public class A41MostProfitAssigningWork {
+public class A38MostProfitAssigningWork {
 //    https://leetcode.com/problems/most-profit-assigning-work/?envType=daily-question&envId=2024-06-18
     public int maxProfitAssignment(int[] difficulty, int[] profit, int[] worker) {
 

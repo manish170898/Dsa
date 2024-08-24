@@ -3,7 +3,8 @@ package org.dsa.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class A38ContiniousSubarraySum {
+public class A35ContiniousSubarraySum {
+//    https://leetcode.com/problems/continuous-subarray-sum/description/
     public boolean checkSubarraySum(int[] nums, int k) {
         Map<Integer, Integer> map =new HashMap<>();
         map.put(0,-1);

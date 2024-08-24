@@ -1,6 +1,6 @@
 package org.dsa.Arrays;
 
-public class A40SumOfSquareNumbers {
+public class A37SumOfSquareNumbers {
 //    https://leetcode.com/problems/sum-of-square-numbers/?envType=daily-question&envId=2024-06-17
     public boolean judgeSquareSum(int c) {
         long lo = 0;

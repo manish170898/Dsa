@@ -2,7 +2,8 @@ package org.dsa.Arrays;
 
 import java.util.Arrays;
 
-public class A32FrequencyOfTheMostFrequentElement {
+public class A29FrequencyOfTheMostFrequentElement {
+//    https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
     public int maxFrequency(int[] nums, int k) {
         int ans=0;
         long sum=0;

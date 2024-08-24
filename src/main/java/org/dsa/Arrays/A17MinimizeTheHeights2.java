@@ -34,17 +34,19 @@ import java.util.StringTokenizer;
 
 public class A17MinimizeTheHeights2 {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
-        Integer n = Integer.parseInt(st.nextToken());
-        Integer k = Integer.parseInt(st.nextToken());
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//        StringTokenizer st = new StringTokenizer(br.readLine());
+//        Integer n = Integer.parseInt(st.nextToken());
+//        Integer k = Integer.parseInt(st.nextToken());
 
-        Integer[] arr = new Integer[n];
-        st = new StringTokenizer(br.readLine());
-
-        for(int i=0; i<n; i++){
-            arr[i] = Integer.parseInt(st.nextToken());
-        }
+//        Integer[] arr = new Integer[n];
+//        st = new StringTokenizer(br.readLine());
+//
+//        for(int i=0; i<n; i++){
+//            arr[i] = Integer.parseInt(st.nextToken());
+//        }
+        int n=4; int k=2;
+        int[] arr = {10,10,10,10};
 
         Arrays.sort(arr);
         int ans = arr[n-1] - arr[0];
@@ -59,5 +61,6 @@ public class A17MinimizeTheHeights2 {
             }
             ans = Math.min(ans, ma-mi);
         }
+        System.out.println(ans);
     }
 }
