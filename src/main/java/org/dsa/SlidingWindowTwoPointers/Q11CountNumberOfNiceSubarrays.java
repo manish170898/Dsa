@@ -1,6 +1,7 @@
 package org.dsa.SlidingWindowTwoPointers;
 
 public class Q11CountNumberOfNiceSubarrays {
+//    https://leetcode.com/problems/count-number-of-nice-subarrays/description/
     public int numberOfSubarrays(int[] nums, int k) {
         int a = atMostGoal(nums, k);
         int b = atMostGoal(nums, k-1);

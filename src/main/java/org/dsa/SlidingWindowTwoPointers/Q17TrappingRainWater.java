@@ -1,6 +1,7 @@
 package org.dsa.SlidingWindowTwoPointers;
 
-public class A31TrappingRainWater {
+public class Q17TrappingRainWater {
+//    https://leetcode.com/problems/trapping-rain-water/description/
     public static void main(String[] args) {
 
     }

@@ -1,6 +1,7 @@
 package org.dsa.SlidingWindowTwoPointers;
 
 public class Q7MaximumPointsYouCanObtainFromCards {
+//    https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/
     public static void main(String[] args) {
         int[] arr = {11,49,100,20,86,29,72};
         int k =4;

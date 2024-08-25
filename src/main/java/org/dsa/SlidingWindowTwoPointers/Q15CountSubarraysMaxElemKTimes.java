@@ -1,6 +1,6 @@
 package org.dsa.SlidingWindowTwoPointers;
 
-public class A28CountSubarraysMaxElemKTimes {
+public class Q15CountSubarraysMaxElemKTimes {
     public static void main(String[] args) {
 
     }

@@ -3,6 +3,7 @@ package org.dsa.SlidingWindowTwoPointers;
 import java.util.Arrays;
 
 public class Q6ThreeSumClosest {
+//    https://leetcode.com/problems/3sum-closest/description/
     public static void main(String[] args) {
         int[] nums = {4,0,5,-5,3,3,0,-4,-5};
         threeSumClosest(nums, -2);
