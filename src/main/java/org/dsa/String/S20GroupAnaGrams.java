@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 public class S20GroupAnaGrams {
+//    https://leetcode.com/problems/group-anagrams/description/
     public static void main(String[] args) {
         String[] a = {"eat","tea","tan","ate","nat","bat"};
         groupAnagrams(a);

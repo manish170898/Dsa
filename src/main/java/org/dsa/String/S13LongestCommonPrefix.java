@@ -1,6 +1,7 @@
 package org.dsa.String;
 
 public class S13LongestCommonPrefix {
+//    https://leetcode.com/problems/longest-common-prefix/description/
     public static void main(String[] args) {
         String[] strs = {"ab", "a"};
         longestCommonPrefix(strs);

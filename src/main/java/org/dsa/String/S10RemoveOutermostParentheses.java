@@ -3,6 +3,7 @@ package org.dsa.String;
 import java.util.Stack;
 
 public class S10RemoveOutermostParentheses {
+//    https://leetcode.com/problems/remove-outermost-parentheses/description/
     public String removeOuterParentheses(String s) {
         Stack<Character> st = new Stack<>();
         StringBuilder sb = new StringBuilder();

@@ -1,6 +1,7 @@
 package org.dsa.String;
 
 public class S18StringToIntegerAtoi {
+//    https://leetcode.com/problems/string-to-integer-atoi/description/
     public int myAtoi(String s) {
         int ans=0;
         int i=0;

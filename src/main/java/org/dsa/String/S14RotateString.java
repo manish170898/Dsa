@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class S14RotateString {
+//    https://leetcode.com/problems/rotate-string/description/
     public static void main(String[] args) {
         String s = "bbbacddceeb";
         String goal = "ceebbbbacdd";

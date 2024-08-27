@@ -1,6 +1,7 @@
 package org.dsa.String;
 
 public class S11ReverseWordInAString {
+//    https://leetcode.com/problems/reverse-words-in-a-string/description/
     public static void main(String[] args) {
         String s = "a good   example";
         reverseWords(s);

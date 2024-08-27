@@ -42,8 +42,8 @@ public class S9Enicurcular {
 
     public static void main(String[] args) {
         List<String> instr = new ArrayList<>();
-        instr.add("GGGGR");
-        instr.add("RGL");
+        instr.add("GRGL");
+//        instr.add("RGL");
 //        instr.add("RLGG");
 //        instr.add("LRGRG");
         List<String> ans = doesCircleExist(instr);
