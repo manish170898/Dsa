@@ -10,6 +10,8 @@ public class A5Permutations {
         int target =7;
         System.out.println(permutation(nums, target));
     }
+
+//    https://leetcode.com/problems/permutations/description/
     public static List<List<Integer>> permutation(int[] nums, int target) {
         List<List<Integer>> result = new ArrayList<>();
         boolean[] freq = new boolean[nums.length];

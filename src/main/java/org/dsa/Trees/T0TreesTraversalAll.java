@@ -13,7 +13,7 @@ class Node{
 }
 
 
-public class A0TreesTraversalAll {
+public class T0TreesTraversalAll {
     public static void main(String[] args20){
         Node root = new Node(1);
         root.left = new Node(2);

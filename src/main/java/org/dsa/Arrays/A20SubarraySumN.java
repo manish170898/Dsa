@@ -19,9 +19,10 @@ import java.util.*;
 //        Explanation: Subarrays : arr[0…2], arr[2…4] have a sum exactly equal to 33.
 public class A20SubarraySumN {
     public static void main(String[] args) throws IOException {
-
+        int[] arr = new int[]{1,2,3,4}; int k = 4;
+        System.out.println(subarraySum(arr, k));
     }
-    public int subarraySum(int[] nums, int k) {
+    public static int subarraySum(int[] nums, int k) {
         Map<Integer,Integer> map = new HashMap<>();
         int sum =0;
         map.put(sum,1);

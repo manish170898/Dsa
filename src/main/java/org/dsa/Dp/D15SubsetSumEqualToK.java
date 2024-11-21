@@ -57,9 +57,6 @@ public class D15SubsetSumEqualToK {
         if(arr[0] <= k){
             dp[0][arr[0]] = true;
         }
-
-
-        int sum =0 ;
         for(int i=1; i<n; i++){
             for(int target = 1; target <= k; target ++){
                 boolean notTake = dp[i-1][target];

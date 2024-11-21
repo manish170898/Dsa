@@ -1,12 +1,10 @@
 package org.dsa.Recursion;
 
-import org.apache.commons.lang3.tuple.MutablePair;
-import org.apache.commons.lang3.tuple.Pair;
-
 import java.util.ArrayList;
 import java.util.List;
 
-public class R19PalindromePartitioning {
+public class R18PalindromePartitioning {
+//    https://leetcode.com/problems/palindrome-partitioning/description/
     public static void main(String[] args) {
     }
 

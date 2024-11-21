@@ -2,6 +2,7 @@ package org.dsa.BinarySearch;
 
 public class B4SearchInsertPosition {
 //    https://leetcode.com/problems/search-insert-position/description/
+
     public int searchInsert(int[] nums, int target) {
         int low = 0;
         int high = nums.length-1;
@@ -18,6 +19,7 @@ public class B4SearchInsertPosition {
                 low = mid +1;
             }
         }
+        // at the end either mid or mid+1 will be answer based on if number is greater than of less than mid
         if(target < nums[mid]) return mid;
         else return mid+1;
     }

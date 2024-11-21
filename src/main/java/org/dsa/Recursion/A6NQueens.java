@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class A6NQueens {
+//        https://leetcode.com/problems/n-queens/description/
     public static void main(String[] args){
         System.out.println(nQueens(4));
     }

@@ -1,6 +1,7 @@
 package org.dsa.Recursion;
 
 public class R17CountGoodNumbers {
+//    https://leetcode.com/problems/count-good-numbers/
     public static long MOD = 1_000_000_007;
     public int countGoodNumbers(long n) {
         long odd = n/2;

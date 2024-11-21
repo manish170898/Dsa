@@ -18,7 +18,7 @@ import java.util.Queue;
      }
  }
 
-    public class A1LevelOrderTraversal {
+    public class T1LevelOrderTraversal {
     public static void main(String[] args){
 
     }

@@ -12,6 +12,7 @@ public class B10FindHowManyTimesArrayHasBeenRotated {
         while(low <= high){
             mid = (low + high)/2;
             if(arr[low] <= arr[mid]){
+                // index of lowest element is how many times it has been rotated
                 if(arr[low] < arr[ans]) ans = low;
                 low = mid+1;
             }

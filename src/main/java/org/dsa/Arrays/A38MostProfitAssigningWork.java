@@ -5,6 +5,7 @@ public class A38MostProfitAssigningWork {
     public int maxProfitAssignment(int[] difficulty, int[] profit, int[] worker) {
 
         int maxValue = 0;
+        // Creating an array which will give max profit in O(1)
         for(int i = 0 ;i<difficulty.length; i++){
             maxValue = Math.max(maxValue, difficulty[i]);
         }

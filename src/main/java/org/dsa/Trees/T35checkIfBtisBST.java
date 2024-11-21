@@ -1,6 +1,7 @@
 package org.dsa.Trees;
 
 public class T35checkIfBtisBST {
+//    https://leetcode.com/problems/validate-binary-search-tree/description/
     public static void main(String[] args20) {
         Node newRoot = new Node(1);
         newRoot.left = new Node(2);

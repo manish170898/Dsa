@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class T15LeftRightViewOfTree {
+//    https://www.naukri.com/code360/problems/childrensumproperty_790723?leftPanelTabValue=PROBLEM
     public static void main(String[] args20) {
         Node root = new Node(1);
         root.left = new Node(2);

@@ -7,7 +7,7 @@ public class B5FindFirstAndLastPositionOfElementInSortedArray {
         int high = nums.length-1;
         int mid = 0;
         int[] ans = {-1, -1};
-
+    // do bs two to one time you go left another time go right .. even if we find it still do this
         while(low <= high){
             mid = (low + high)/2;
             if(nums[mid] == target){

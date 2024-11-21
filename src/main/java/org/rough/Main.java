@@ -1,6 +1,8 @@
 package org.rough;
 
-public class Main {
+import java.util.Arrays;
+
+class GFG {
         public static void main(String[] args) {
         }
 }

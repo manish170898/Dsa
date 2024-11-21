@@ -9,6 +9,7 @@ public class B8SearchInRotatedSortedArrayII {
         while(low <= high){
             mid = (low + high)/2;
             if(nums[mid] == target) return true;
+            //same as above just handle an edge case
             if(nums[mid] == nums[high] && nums[mid] == nums[low]){
                 low++;
                 high--;

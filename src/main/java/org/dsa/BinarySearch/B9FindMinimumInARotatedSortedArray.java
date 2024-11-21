@@ -10,6 +10,7 @@ public class B9FindMinimumInARotatedSortedArray {
 
         while(low <= high){
             mid = (low + high)/2;
+            // in normal side compare with lowest elemnt and go opposite side .. as you now have lowest elemnt since it is sorted
             if(nums[low] <= nums[mid]){
                 if(nums[low] < ans) ans = nums[low];
                 low = mid+1;

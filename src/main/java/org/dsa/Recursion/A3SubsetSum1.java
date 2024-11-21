@@ -39,7 +39,7 @@ import java.util.List;
 //        0 <= arr[i] <= 104
 
 public class A3SubsetSum1 {
-
+//    https://leetcode.com/problems/subsets/
     public static void main(String[] args){
         ArrayList<Integer> list = new ArrayList<>(Arrays.asList(3,2,2,6,7));
         System.out.println(subsetSum(list));

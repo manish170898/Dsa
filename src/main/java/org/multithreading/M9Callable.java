@@ -29,5 +29,6 @@ public class M9Callable {
         for(Future<String> f : list){
             System.out.println(f.get());
         }
+        service.shutdown();
     }
 }

@@ -62,7 +62,7 @@ public class G26DijkstraAlgorithm {
                         set.remove(new PairG(dis[adjDist], adjNode));
                     }
                     dis[adjNode] = adjDist;
-                    set.remove(new PairG(adjDist, adjNode));
+                    set.add(new PairG(adjDist, adjNode));
                 }
             }
         }

@@ -14,7 +14,7 @@ class Pair1{
     }
 
 }
-public class A3InPrePostInASingleTraversal {
+public class T3InPrePostInASingleTraversal {
     public static void main(String[] args){
 
     }
